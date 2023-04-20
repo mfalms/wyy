@@ -5,8 +5,32 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		}, {
+			"path": "pages/me/me"
+		}, {
+			"path": "pages/yun/yun"
+
+		}, {
+			"path": "pages/bo/bo"
 		}
 	],
+	"tabBar": {
+		"color": "#9f9fa3",
+		"selectedColor": "#ff0000",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "发现"
+		}, {
+			"pagePath": "pages/bo/bo",
+			"text": "播客"
+		}, {
+			"pagePath": "pages/yun/yun",
+			"text": "云村"
+		}, {
+			"pagePath": "pages/me/me",
+			"text": "我的"
+		}]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

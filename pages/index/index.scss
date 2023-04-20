@@ -1,0 +1,154 @@
+.content {
+	width: 100%;
+	padding: 0 25rpx;
+	box-sizing: border-box;
+}
+.banner {
+	width: 700rpx;
+	height: 280rpx;
+	// margin: 24rpx auto 0;
+	border-radius: 20rpx;
+	overflow: hidden;
+	image {
+		width: 700rpx;
+		height: 280rpx;
+	}
+}
+.fandIcon {
+	margin-top: 40rpx;
+	width: 700rpx;
+	height: 134rpx;
+	.mk {
+		white-space: nowrap;
+		overflow: hidden;
+		height: 100%;
+		::-webkit-scrollbar {
+			display: none;
+			width: 0 !important;
+			height: 0 !important;
+			-webkit-appearance: none;
+			background: transparent;
+		}
+	}
+	.item {
+		display: inline-block;
+		width: 104rpx;
+		height: 100%;
+		font-size: 26rpx;
+		margin: 0 20rpx;
+		text-align: center;
+	}
+	.imgbox {
+		width: 100%;
+		height: 100rpx;
+		background-color: #fe0000;
+		border-radius: 50%;
+		image {
+			width: 100rpx;
+			height: 100rpx;
+		}
+	}
+}
+.tit_min {
+	width: 100%;
+	font-size: 26rpx;
+	color: #8b8b8b;
+	text-align: left;
+	margin-top: 50rpx;
+}
+.tit_max {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.left {
+		font-size: 36rpx;
+		font-weight: 400;
+	}
+	.right {
+		color: #666666;
+		border: 2rpx solid #8b8b8b;
+		border-radius: 20rpx;
+	}
+}
+.cont {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	// justify-content: space-between;
+	margin-top: 24rpx;
+	.item:nth-of-type(2) {
+		margin: 0 22rpx;
+	}
+	.item {
+		// float: left;
+		width: 220rpx;
+		height: 250rpx;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		image {
+			width: 200rpx;
+			height: 200rpx;
+		}
+		.text {
+			width: 100%;
+			margin-top: 10rpx;
+			margin-left: 10rpx;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			font-size: 28rpx;
+		}
+	}
+}
+.cont-y {
+	width: 100%;
+	margin-top: 24rxp;
+	.item {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 14rpx;
+		image {
+			width: 100rpx;
+			height: 100rpx;
+			border-radius: 20rpx;
+		}
+		.name {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-left: 10px;
+		}
+		.icon {
+			width: 60rpx;
+			height: 60rpx;
+			border-radius: 50%;
+			border: 2rpx solid #7d7d7d;
+			font-size: 52px;
+			margin-right: 24rpx;
+			text-align: center;
+			line-height: 58rpx;
+			position: relative;
+			image {
+				position: absolute;
+				top: 5.5rpx;
+				left: 9.5rpx;
+				width: 50rpx;
+				height: 50rpx;
+			}
+		}
+	}
+}
+.last {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 22rpx;
+	color: #7d7d7d;
+	margin-top: 100rpx;
+}
